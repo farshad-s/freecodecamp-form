@@ -115,5 +115,15 @@ textarea {
 
 #submit:hover {
     background-color: rgb(35, 214, 205);
+}
 
+@media screen and (max-width: 1080px) {
+    body {
+        background-repeat: unset;
+        background-size: 220%;
+    }
+    #box {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
