@@ -1,129 +1,129 @@
 body {
-    background-image: url("../css/img/background.jpeg");
-    background-size: 100%;
-    background-attachment: fixed;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("../css/img/background.jpeg");
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
 .container p {
-    margin-top: -5px;
-    font-style: italic;
-    font-size: 20px;
+  margin-top: -5px;
+  font-style: italic;
+  font-size: 20px;
 }
 
 #box {
-    background-color: rgba(31, 24, 31, 0.8);
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 1%;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(31, 24, 31, 0.8);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 1%;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .form label {
-    font-size: 20px;
-    margin-bottom: 1%;
+  font-size: 20px;
+  margin-bottom: 1%;
 }
 
 .form .enter-text {
-    width: 96%;
-    height: 10%;
-    margin-bottom: 3%;
-    padding: 10px;
-    outline: none;
+  width: 96%;
+  height: 10%;
+  margin-bottom: 3%;
+  padding: 10px;
+  outline: none;
 }
 
-.form .survey-form::placeholder{
-    font-size: 15px;
+.form .survey-form::placeholder {
+  font-size: 15px;
 }
 
 .drop-down {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 3%;
-    outline: none;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 3%;
+  outline: none;
 }
 
 #fav-feature-text {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .radio {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .radio-value {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #other {
-    padding-bottom: 3%;
+  padding-bottom: 3%;
 }
 
 .check-box-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 83%;
 }
 
 #check-box-title {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.check-box-body input{
-    margin-bottom: 12px;
+.check-box-body input {
+  margin-bottom: 12px;
 }
 
-.comments-box p{
-    font-size: 20px;
+.comments-box p {
+  font-size: 20px;
 }
 
 textarea {
-    height: 130px!important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+  height: 130px !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
 }
 
 #submit {
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: lightseagreen;
-    outline: none;
-    border: none;
-    cursor: pointer;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: lightseagreen;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 #submit:hover {
-    background-color: rgb(35, 214, 205);
+  background-color: rgb(35, 214, 205);
 }
 
 @media screen and (max-width: 1080px) {
-    body {
-        background-repeat: unset;
-        background-size: 220%;
-    }
-    #box {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+  body {
+    background-repeat: unset;
+    background-size: 220%;
+  }
+  #box {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
