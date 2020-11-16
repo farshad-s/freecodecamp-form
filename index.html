@@ -13,9 +13,10 @@
     </header>
 
     <div id="box">
-      <form class="form">
-        <label for="name">Name</label>
+      <form class="form" method="post" action="fill-form.php">
+        <label>Name</label>
         <input
+          name="name"
           class="enter-text"
           type="text"
           id="name"
@@ -23,16 +24,23 @@
         />
         <label for="email">Email</label>
         <input
+          name="email"
           class="enter-text"
           type="email"
           id="email"
           placeholder="Enter your Email"
         />
         <label for="age">Age (Optional)</label>
-        <input class="enter-text" type="number" id="age" placeholder="Age" />
+        <input
+          name="age"
+          class="enter-text"
+          type="number"
+          id="age"
+          placeholder="Age"
+        />
 
         <label>Which option best describes your current role</label>
-        <select class="drop-down">
+        <select class="drop-down" name="current-role">
           <option value="" disabled selected>Select Current Role</option>
           <option value="1">Student</option>
           <option value="2">Full Time Job</option>
@@ -160,7 +168,7 @@
           ></textarea>
         </div>
 
-        <button id="submit" type="submit">Submit</button>
+        <button id="submit" type="submit" name="submit">Submit</button>
       </form>
     </div>
   </body>
